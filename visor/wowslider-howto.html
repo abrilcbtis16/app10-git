@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WOWSlider</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="WOWSlider" />
+	
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+	<script type="text/javascript" src="engine2/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+
+<style>
+.instuction {
+	font-family: sans-serif, Arial;
+	display: block;
+	margin: 0 auto;
+	max-width: 820px;
+	width: 100%;
+	padding: 0 70px;
+	color: #222;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.instuction h1 img {
+	max-width: 170px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+.instuction h1 {
+	color: #2F98B3;
+	text-align: center;
+}
+.instuction h2 {
+	position: relative;
+	font-size: 1.1em;
+	color: #2F98B3;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.instuction h2 span.num {
+	position: absolute;
+	left: -70px;
+	top: -18px;
+	display: inline-block;
+	vertical-align: middle;
+	font-style: italic;
+	font-size: 1.1em;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #2F98B3;
+	color: #fff;
+	border-radius: 50%;
+}
+.instuction .mono {
+	color: #000;
+	font-family: monospace;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+.instuction li.mono {
+	font-size: 1.5em;
+}
+
+.instuction ul {
+	font-size: 0.9em;
+	margin-top: 0;
+	padding-left: 0;
+	list-style: none;
+}
+.instuction .note {
+	color: #A3A3B2;
+	font-style: italic;
+	padding-top: 10px;
+}
+.instuction p.note {
+	text-align: center;
+	padding-top: 0;
+	margin-top: 4px;
+}
+.instuction textarea {
+	font-size: 0.9em;
+	min-height: 60px;
+	padding: 10px;
+	margin: 0;
+	overflow: auto;
+	max-width: 100%;
+	width: 100%;
+}
+.instuction a,
+.instuction a:visited {
+	color: #2F98B3;
+}
+</style>
+
+
+</head>
+<body style="margin:auto">
+
+<br>
+
+<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/uni.jpg" alt="UNIVERSIDADES" title="UNIVERSIDADES" id="wows2_0"/></li>
+		<li><img src="data2/images/img_mecatronica10.jpg" alt="Universidad Popular Autónoma del Estado de Puebla" title="Universidad Popular Autónoma del Estado de Puebla" id="wows2_1"/></li>
+		<li><img src="data2/images/img_mecatronica9.jpg" alt="Universidad de las Américas Puebla " title="Universidad de las Américas Puebla " id="wows2_2"/></li>
+		<li><img src="data2/images/unam.jpg" alt="Universidad Nacional Autónoma de México " title="Universidad Nacional Autónoma de México " id="wows2_3"/></li>
+		<li><img src="data2/images/uni2.jpg" alt="Universidad Interamericana" title="Universidad Interamericana" id="wows2_4"/></li>
+		<li><img src="data2/images/img_gastronomia8.jpg" alt="Instituto Culinario de México" title="Instituto Culinario de México" id="wows2_5"/></li>
+		<li><img src="data2/images/img_mecatronica8.png" alt="Benemérita Universidad Autónoma de Puebla" title="Benemérita Universidad Autónoma de Puebla" id="wows2_6"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data2/images/img_mecatronica7.jpg" alt="image slider" title="Tecnológico de Monterrey" id="wows2_7"/></a></li>
+		<li><img src="data2/images/grado.jpg" alt="Egreso" title="Egreso" id="wows2_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="UNIVERSIDADES"><span><img src="data2/tooltips/uni.jpg" alt="UNIVERSIDADES"/>1</span></a>
+		<a href="#" title="Universidad Popular Autónoma del Estado de Puebla"><span><img src="data2/tooltips/img_mecatronica10.jpg" alt="Universidad Popular Autónoma del Estado de Puebla"/>2</span></a>
+		<a href="#" title="Universidad de las Américas Puebla "><span><img src="data2/tooltips/img_mecatronica9.jpg" alt="Universidad de las Américas Puebla "/>3</span></a>
+		<a href="#" title="Universidad Nacional Autónoma de México "><span><img src="data2/tooltips/unam.jpg" alt="Universidad Nacional Autónoma de México "/>4</span></a>
+		<a href="#" title="Universidad Interamericana"><span><img src="data2/tooltips/uni2.jpg" alt="Universidad Interamericana"/>5</span></a>
+		<a href="#" title="Instituto Culinario de México"><span><img src="data2/tooltips/img_gastronomia8.jpg" alt="Instituto Culinario de México"/>6</span></a>
+		<a href="#" title="Benemérita Universidad Autónoma de Puebla"><span><img src="data2/tooltips/img_mecatronica8.png" alt="Benemérita Universidad Autónoma de Puebla"/>7</span></a>
+		<a href="#" title="Tecnológico de Monterrey"><span><img src="data2/tooltips/img_mecatronica7.jpg" alt="Tecnológico de Monterrey"/>8</span></a>
+		<a href="#" title="Egreso"><span><img src="data2/tooltips/grado.jpg" alt="Egreso"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">css slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+<div class="instuction">
+	<p class="note">HTML code for the slider <a href="file:///J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/visor/wowslider.html">J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/visor/wowslider.html</a></p>
+
+	<h1>
+		How to add this slider to HTML page
+	</h1>
+
+	<h2><span class="num">1</span> Upload these folders to your server</h2>
+	<ul>
+		<li class="mono">data2/</li>
+		<li class="mono">engine2/</li>
+		<li class="note">Current location: <a href="file:///J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/visor">J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/visor</a>. <br>These folders should be located in the same folder as your html page</li>
+	</ul>
+
+	<h2><span class="num">2</span> Paste this code to your page between the tags <span class="mono">&lt;head&gt;&lt;/head&gt;</span></h2>
+	<textarea onclick="this.select()">&lt;!-- Start WOWSlider.com HEAD section --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;engine2/style.css&quot; /&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;engine2/jquery.js&quot;&gt;&lt;/script&gt;
+&lt;!-- End WOWSlider.com HEAD section --&gt;</textarea>
+
+
+	<h2><span class="num" style="top: -8px;">3</span> Paste this code to your page between the tags <span class="mono">&lt;body&gt;&lt;/body&gt;</span> in the place that you want the slider to appear</h2>
+	<textarea onclick="this.select()" rows="15">&lt;!-- Start WOWSlider.com BODY section --&gt;
+&lt;div id=&quot;wowslider-container2&quot;&gt;
+&lt;div class=&quot;ws_images&quot;&gt;&lt;ul&gt;
+		&lt;li&gt;&lt;img src=&quot;data2/images/uni.jpg&quot; alt=&quot;UNIVERSIDADES&quot; title=&quot;UNIVERSIDADES&quot; id=&quot;wows2_0&quot;/&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;img src=&quot;data2/images/img_mecatronica10.jpg&quot; alt=&quot;Universidad Popular Autónoma del Estado de Puebla&quot; title=&quot;Universidad Popular Autónoma del Estado de Puebla&quot; id=&quot;wows2_1&quot;/&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;img src=&quot;data2/images/img_mecatronica9.jpg&quot; alt=&quot;Universidad de las Américas Puebla &quot; title=&quot;Universidad de las Américas Puebla &quot; id=&quot;wows2_2&quot;/&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;img src=&quot;data2/images/unam.jpg&quot; alt=&quot;Universidad Nacional Autónoma de México &quot; title=&quot;Universidad Nacional Autónoma de México &quot; id=&quot;wows2_3&quot;/&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;img src=&quot;data2/images/uni2.jpg&quot; alt=&quot;Universidad Interamericana&quot; title=&quot;Universidad Interamericana&quot; id=&quot;wows2_4&quot;/&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;img src=&quot;data2/images/img_gastronomia8.jpg&quot; alt=&quot;Instituto Culinario de México&quot; title=&quot;Instituto Culinario de México&quot; id=&quot;wows2_5&quot;/&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;img src=&quot;data2/images/img_mecatronica8.png&quot; alt=&quot;Benemérita Universidad Autónoma de Puebla&quot; title=&quot;Benemérita Universidad Autónoma de Puebla&quot; id=&quot;wows2_6&quot;/&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;http://wowslider.com/vi&quot;&gt;&lt;img src=&quot;data2/images/img_mecatronica7.jpg&quot; alt=&quot;image slider&quot; title=&quot;Tecnológico de Monterrey&quot; id=&quot;wows2_7&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;img src=&quot;data2/images/grado.jpg&quot; alt=&quot;Egreso&quot; title=&quot;Egreso&quot; id=&quot;wows2_8&quot;/&gt;&lt;/li&gt;
+	&lt;/ul&gt;&lt;/div&gt;
+	&lt;div class=&quot;ws_bullets&quot;&gt;&lt;div&gt;
+		&lt;a href=&quot;#&quot; title=&quot;UNIVERSIDADES&quot;&gt;&lt;span&gt;&lt;img src=&quot;data2/tooltips/uni.jpg&quot; alt=&quot;UNIVERSIDADES&quot;/&gt;1&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;#&quot; title=&quot;Universidad Popular Autónoma del Estado de Puebla&quot;&gt;&lt;span&gt;&lt;img src=&quot;data2/tooltips/img_mecatronica10.jpg&quot; alt=&quot;Universidad Popular Autónoma del Estado de Puebla&quot;/&gt;2&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;#&quot; title=&quot;Universidad de las Américas Puebla &quot;&gt;&lt;span&gt;&lt;img src=&quot;data2/tooltips/img_mecatronica9.jpg&quot; alt=&quot;Universidad de las Américas Puebla &quot;/&gt;3&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;#&quot; title=&quot;Universidad Nacional Autónoma de México &quot;&gt;&lt;span&gt;&lt;img src=&quot;data2/tooltips/unam.jpg&quot; alt=&quot;Universidad Nacional Autónoma de México &quot;/&gt;4&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;#&quot; title=&quot;Universidad Interamericana&quot;&gt;&lt;span&gt;&lt;img src=&quot;data2/tooltips/uni2.jpg&quot; alt=&quot;Universidad Interamericana&quot;/&gt;5&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;#&quot; title=&quot;Instituto Culinario de México&quot;&gt;&lt;span&gt;&lt;img src=&quot;data2/tooltips/img_gastronomia8.jpg&quot; alt=&quot;Instituto Culinario de México&quot;/&gt;6&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;#&quot; title=&quot;Benemérita Universidad Autónoma de Puebla&quot;&gt;&lt;span&gt;&lt;img src=&quot;data2/tooltips/img_mecatronica8.png&quot; alt=&quot;Benemérita Universidad Autónoma de Puebla&quot;/&gt;7&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;#&quot; title=&quot;Tecnológico de Monterrey&quot;&gt;&lt;span&gt;&lt;img src=&quot;data2/tooltips/img_mecatronica7.jpg&quot; alt=&quot;Tecnológico de Monterrey&quot;/&gt;8&lt;/span&gt;&lt;/a&gt;
+		&lt;a href=&quot;#&quot; title=&quot;Egreso&quot;&gt;&lt;span&gt;&lt;img src=&quot;data2/tooltips/grado.jpg&quot; alt=&quot;Egreso&quot;/&gt;9&lt;/span&gt;&lt;/a&gt;
+	&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;ws_script&quot; style=&quot;position:absolute;left:-99%&quot;&gt;&lt;a href=&quot;http://wowslider.com/vi&quot;&gt;css slider&lt;/a&gt; by WOWSlider.com v8.7&lt;/div&gt;
+&lt;div class=&quot;ws_shadow&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;	
+&lt;script type=&quot;text/javascript&quot; src=&quot;engine2/wowslider.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;engine2/script.js&quot;&gt;&lt;/script&gt;
+&lt;!-- End WOWSlider.com BODY section --&gt;</textarea>
+
+<br><br>
+<h2>Also you can try the <a href="http://wowslider.com/help/add-wowslider-to-page-2.html" target="_blank">Insert-To-Page wizard</a>, to add the slider visually, without touching the code!</h2>
+<p>
+	<a href="http://wowslider.com/help/add-wowslider-to-page-2.html" target="_blank">Click here</a> for the detailed info.
+</p>
+</div>
+
+<br><br>
+</body>
+</html>

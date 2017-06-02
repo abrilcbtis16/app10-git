@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>14</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visor1</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>dribbles</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/chrome/</ImageTemplate>
+            <ImageTemplateName>Chrome</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/visor/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/visor</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#000000</TemplateColor>
+            <TemplateFont>Tahoma</TemplateFont>
+            <TemplateName>chrome</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/imagenes/img_civil7.jpg</url>
+                <title>INGENIERÍA CIVIL: BUAP, UPAEP...</title>
+                <filesize>25420</filesize>
+            </Image>
+            <Image>
+                <url>J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/imagenes/img_civil6.jpg</url>
+                <title>INGENIERÍA CIVIL</title>
+                <filesize>35839</filesize>
+            </Image>
+            <Image>
+                <url>J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/imagenes/img_civil5.jpg</url>
+                <title>INGENIERÍA CIVIL</title>
+                <filesize>52830</filesize>
+            </Image>
+            <Image>
+                <url>J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/imagenes/img_gastronomia3.jpg</url>
+                <title>GASTRONOMÍA: BUAP, UPAEP...</title>
+                <filesize>82901</filesize>
+            </Image>
+            <Image>
+                <url>J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/imagenes/img_gastronomia4.jpg</url>
+                <title>GASTRONOMÍA</title>
+                <filesize>157003</filesize>
+            </Image>
+            <Image>
+                <url>J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/imagenes/img_gastronomia2.jpg</url>
+                <title>GASTRONOMÍA</title>
+                <filesize>717574</filesize>
+            </Image>
+            <Image>
+                <url>J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/imagenes/img_mecatronica3.jpg</url>
+                <title>INGENIERÍA MECATRÓNICA: BUAP, UPAEP</title>
+                <filesize>76605</filesize>
+            </Image>
+            <Image>
+                <url>J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/imagenes/img_mecatronica6.jpg</url>
+                <title>INGENIERÍA MECATRÓNICA</title>
+                <filesize>80050</filesize>
+            </Image>
+            <Image>
+                <url>J:/CBTIS-16 4to Semestre/DAM/3 Parcial/app10/imagenes/img_mecatronica13.jpg</url>
+                <title>INGENIERÍA MECATRÓNICA</title>
+                <filesize>128557</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
